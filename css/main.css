@@ -142,12 +142,23 @@ h6 {
 }
 .social_item {
 	margin-right: 20px;
-	width: 20px;
-	height: 20px;
+/*	width: 20px;
+	height: 20px;*/
 }
 .social_item img {
 	width: auto;
 	height: auto;
+}
+.social_item a {
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.social_item a:hover {
+	padding: 5px;
+	border: 1px solid red;
+	background-color: red;
+	border-radius: 50%;
 }
 .copyright p {
 	font-family: 'Open Sans', sans-serif;
