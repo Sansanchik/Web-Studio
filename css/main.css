@@ -1,0 +1,171 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	background-image: url(../img/hero_image.png);
+	background-repeat: no-repeat;
+	background-position: center center; 
+	width: 100%;
+	height: auto;
+}
+.logo {
+	font-family: 'Domine', serif;
+	font-size: 1.4rem;
+	width: 10rem;
+	color: #fff;
+	background-color: #fa5c65;
+	padding: 3rem 1rem 1rem 1rem; 
+	border-radius: 0 0 20px 20px;
+}
+.logo span {
+	color: #000;
+}
+.nav {
+	    margin-top: 2rem;
+	    justify-content: end;
+}
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #263742;
+}
+h1 {
+	margin-top: 20rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.1rem;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+h3 {
+	margin-top: 0.2rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	font-weight: normal;
+	color: #314a5b;
+	text-align: left;
+}
+.btn-danger {
+	background-color: #fa5c65;
+    margin-top: 1rem;
+    padding: 0 40px;
+    font-size: 1rem;
+    line-height: 3rem;
+	text-transform: uppercase;
+}
+.work {
+	padding: 80px 0;
+
+} 
+.card-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #314a5b;
+}
+.card-title span {
+	color:  #fa5c65;
+	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2rem;
+}
+.card-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	font-weight: normal;
+	color: #9aa0ab;
+	text-align: left;
+}
+.more_link {
+	color: #fa5c65;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.portfolio {
+	padding-top: 50px;
+}
+.portfolio img {
+	width: 100%;
+	vertical-align: top;
+}
+.card-title .portfolio {
+	font-size: 2.3rem;
+}
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #314a5b;
+}
+.our_team {
+	padding: 70px 0;
+}
+.our_team_list {
+	padding: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.our_team_card {
+	display: flex;
+}
+.our_team .card-title {
+    text-align: center;
+}
+.our_team_image {
+    width: 50%;
+    height: auto;
+}
+.our_team .card-title span {
+	font-size: 0.9rem;
+}
+.our_team .card-text {
+	font-size: 1rem;
+	text-align: center;
+}	
+.link_wrapper {
+	text-align: right;
+}
+.social_list {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+}
+.social_item {
+	margin-right: 20px;
+	width: 20px;
+	height: 20px;
+}
+.social_item img {
+	width: auto;
+	height: auto;
+}
+.copyright p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+	font-weight: normal;
+	color: #9aa0ab;
+}
+@media screen and (min-width:320px) and (max-width:768px){
+	.logo {margin: 0 auto;}
+	.nav {justify-content: center;}
+    h1 {margin-top: 5rem; font-size: 2rem;}
+    .our_team, .work { padding: 20px 0;}
+    .portfolio {padding-top: 20px;}
+    .card-title h5{font-size: 1.5rem;}
+    .our_team_image { margin: 0 auto;}
+	.our_team_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;}
+}
