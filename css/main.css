@@ -15,8 +15,8 @@ header {
 .logo {
 	font-family: 'Domine', serif;
 	font-size: 1.4rem;
-	width: 10rem;
 	color: #fff;
+	text-align: center;
 	background-color: #fa5c65;
 	padding: 3rem 1rem 1rem 1rem; 
 	border-radius: 0 0 20px 20px;
@@ -26,7 +26,7 @@ header {
 }
 .nav {
 	    margin-top: 2rem;
-	    justify-content: end;
+        justify-content: flex-end;
 }
 .nav-link {
 	font-family: 'Montserrat', sans-serif;
